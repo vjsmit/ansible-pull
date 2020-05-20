@@ -1,0 +1,6 @@
+- name: demo on pull
+  hosts: localhost
+  tasks:
+    - name: print sample
+      debug:
+        msg: "sample"
